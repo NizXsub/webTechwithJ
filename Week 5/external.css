@@ -1,0 +1,40 @@
+* {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+  h1 {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Delicious Handrawn", cursive;
+  }
+  .p1 {
+    background-color: aquamarine;
+  }
+  .p2 {
+    background-color: aliceblue;
+  }
+  .p3 {
+    background-color: aqua;
+  }
+  .p4 {
+    width: 50%;
+    background-color: blueviolet;
+  }
+  .p4:hover {
+    background-color: rgb(162, 104, 216);
+    cursor: pointer;
+  }
+  a[href] {
+    text-decoration: none;
+    color: crimson;
+  }

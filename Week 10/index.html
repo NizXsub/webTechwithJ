@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        // let a = "Nizz";
+        // console.log(a);
+
+        // let b = window.prompt("Tell me what's up?");
+        // console.log(b);
+
+        /* let c = "eth";
+        {  
+            let c = "sth";
+            console.log(c);
+        }
+        console.log(c);
+        */
+        // let items = {
+        //     Name : "Nizz",
+        //     Age : "18",
+        //     Place : "Bhatbhateni"
+        // }
+
+        // let Dict = {
+        //     mark : "note something",
+        //     place : "put something",
+        //     Jesus : "is gay",
+        //     Shiva : "420",
+        //     Me : "idk"
+        // }
+        // console.log(typeof Dict);
+        // let value_arr = Object.values(Dict);
+        // for(i in value_arr){
+        //     console.log(value_arr[i]);
+        // }
+        let age = parseInt(window.prompt("What's your age bruh?"));
+        console.log(age);
+            if(age <= 0){
+            console.log("wtf");
+            }
+            else if(age <= 12){
+                console.log("infant");
+            }
+            else if(age > 12 && age < 18){
+                console.log("Underage huh!!");
+            }
+            else if(age >= 18 && age <= 40){
+                console.log("Adult");
+            }
+            else if(age > 40){
+                console.log("Oldie");   
+            }       
+
+        for(i = 0; i < 10; i++){
+            console.log(i)
+        }
+        function sum(num1, num2){
+            let add = num1 + num2;
+            return add
+        }
+        console.log(sum(3, 6))
+        function avg(){
+            let a1 = parseInt(prompt("First Number?"));
+            let a2 = parseInt(prompt("Second Number?"));
+            let a3 = parseInt(prompt("Third Number?"));
+            let ave = (a1 + a2 + a3)/3;
+            return console.log(ave) 
+        }
+    </script>
+</body>
+</html>

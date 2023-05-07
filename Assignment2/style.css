@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.firstchild{
+    background-color: #003c22;
+    border: 1px solid red;
+}
+#left{
+    width: 55%;
+    /* display: flex; */
+    padding-left: 6%;
+    padding-top: 20vh;
+}
+#right{
+    width: 45%;
+    overflow: hidden;
+}
+.secondchild{
+    
+}
+.secondchild:nth-child(2){
+    margin-top: 2%;
+    
+}
+.head{
+    font-size: calc(4rem);
+    font-weight: 700;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+}
