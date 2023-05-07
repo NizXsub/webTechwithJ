@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoilio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="left">
+            <h1>Hello my Name is: <span>Nizz Sharma</span></h1><br><br><br>
+            <h2>I am <span>a Student</span></h2><br><br><br>
+            <button onclick = "btn_function()">Dark Mode</button>
+        </div>
+        <div class="right">
+            <img src="prof.jpg" alt="my picture">
+        </div>
+        <script>
+            function btn_function(){
+                document.body.classList.toggle('dark-mode')
+            }
+            
+        </script>
+    </div>
+</body>
+</html>
